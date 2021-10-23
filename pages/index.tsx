@@ -23,7 +23,9 @@ export default function Home({
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>My name is Kodai Takano.</p>
+        <p>My name is Kodai Takano. This is my{' '}
+          <a href="https://github.com/KodaiTakano">Github</a>.
+        </p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
